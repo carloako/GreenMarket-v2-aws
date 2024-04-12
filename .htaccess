@@ -1,0 +1,34 @@
+RewriteEngine On
+# RewriteBase /GreenMarket-v2/
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:CF-Visitor} !{"scheme":"https"}
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^home/?$ /index.php [NC,L]
+RewriteRule ^aisle/?$ /pages/aisle-page/aisles.php [NC,L]
+RewriteRule ^aisle/fruits/?$ /pages/aisle-page/fruits-page/fruits.php [NC,L]
+RewriteRule ^aisle/beverages/?$ /pages/aisle-page/beverages-page/beverages.php [NC,L]
+RewriteRule ^aisle/meals/?$ /pages/aisle-page/meals-page/meals.php [NC,L]
+RewriteRule ^aisle/snacks/?$ /pages/aisle-page/snacks-page/snacks.php [NC,L]
+RewriteRule ^backend/?$ /pages/backend-page/backend.php [NC,L]
+RewriteRule ^backend\?([^=]*)=([^=]*)$ /pages/backend-page/backend.php?$1=$2 [NC,L]
+RewriteRule ^backend/edit/([0-9]+)/?$ /pages/backend-page/backend-edit-product.php?productID=$1 [NC,L]
+RewriteRule ^backend/add-product/?$ /pages/backend-page/backend-add-product.php [NC,L]
+RewriteRule ^login/?$ /pages/login-page/login.php [NC,L]
+RewriteRule ^login\?([^=]*)=([^=]*)$ pages/login-page/login.php?$1=$2 [NC,L]
+# RewriteRule ^login\?error\=(.*)$ /pages/login-page/login.php?error=$1 [NC,L]
+# RewriteRule ^login/\?$ /pages/login-page/login.php [NC,L]
+# RewriteCond %{QUERY_STRING} ^error=(.*)$
+# RewriteRule ^pages/login-page/login\.php$ /login [R=301,L]
+RewriteRule ^product/([^/]+)/loginerror$ "/pages/product-page/product.php?productID=$1&error=loginerror" [NC,L]
+RewriteRule ^product/([^/]+)/successful$ "/pages/product-page/product.php?productID=$1&success=successful" [NC,L]
+RewriteRule ^product/([^&]+)/?$ /pages/product-page/product.php?productID=$1 [NC,L]
+RewriteRule ^profile/(.*)/?$ /pages/profile/profile.php?username=$1 [NC,L]
+RewriteRule ^shopping-cart/?$ /pages/shopping-cart-page/shopping-cart.php [NC,L]
+RewriteRule ^shopping-cart/success /pages/shopping-cart-page/shopping-cart.php?success=successful
+RewriteRule ^shopping-cart/error /pages/shopping-cart-page/shopping-cart.php?success=false
+RewriteRule ^sign-up/?$ /pages/sign-up-page/sign-up.php [NC,L]
+RewriteRule ^sign-up\?([^=]*)=([^=]*)$ /pages/sign-up-page/sign-up.php?$1=$2 [NC,L]
+RewriteRule ^welcome/?$ /pages/sign-up-page/landing-page.php [NC,L]

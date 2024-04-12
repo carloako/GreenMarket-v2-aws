@@ -1,0 +1,40 @@
+/* .fab:hover {
+  color: #c5cfb6;
+} */
+
+/* *, *:before, *:after {
+    box-sizing: inherit;
+} */
+
+.nav-link {
+  font-size: 2rem;
+}
+
+.banner-container-custom {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.banner-img-custom {
+  width: 100%;
+}
+
+#banner-img-custom {
+  width: 100%;
+}
+
+.navbar a:link {
+  color: #b3c39c;
+}
+.navbar a:visited {
+  color: #8e9b7c;
+}
+.navbar a:hover {
+  color: #cbd6b9;
+}
+
+.warning {
+  display: flex;
+  justify-content: center;
+  color: white;
+}

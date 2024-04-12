@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+
+This part is used to set a baseline that is used for all pages.
+-> Addresses header styling, navigation bar styling, background styling as well
+footer styling
+-> This style is applied to ALL pages.
+*/
+
+/* Install fonts on the website */
+/* Montserrat BOLD */
+@font-face {
+  font-family: MontserratBold;
+  src: url("/Fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Montserrat LIGHT */
+@font-face {
+  font-family: MontserratLight;
+  src: url("/Fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: Montserrat;
+  src: url("/Fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+hgroup,
+menu,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+section {
+  display: inline-flexbox;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6.5rem;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* body {
+  background-color: #f6f8f2;
+  color: #343434;
+  font-family: MontserratLight, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  border-color: #b3c39c;
+} */
+
+/* .fa, .far, .fas {
+  font-family: Font Awesome\ 5 Free, MontserratLight;
+} */

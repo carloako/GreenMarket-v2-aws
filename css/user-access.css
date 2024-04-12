@@ -1,0 +1,111 @@
+/* This page is the template used for the login page and the sign up form
+
+This template doesn't address the theme colors, but works to define the design of
+this group of pages. */
+
+/* design of the header specific to P5-P6 and P7-P12 */
+/* .header-2 {
+    height: 171.3;
+} */
+
+#market-name {
+    height: auto;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* design of the body */
+body {
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+
+h2 {
+    padding-left: 9%;
+    font-variant-caps: all-small-caps;
+    font-size: 280%;
+}
+h3 {
+    font-variant-caps: all-petite-caps;
+    font-size: 150%;
+}
+
+/* Form Style input */
+body input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cbd6b9;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+body input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cbd6b9;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+body input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cbd6b9;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-outline-secondary {
+    color: #b3c39c;
+    border-color: #b3c39c;
+    float: right;
+    size: 80%;
+    font-size: 1.8rem;
+}
+.btn-outline-secondary:hover {
+    color: #f6f8f2;
+    background-color: #c5cfb6;
+    border-color: #c5cfb6;
+}
+
+/* Sign up button style*/
+body input[type=submit] {
+    width: 100%;
+    background-color: #b3c39c;
+    color: #f6f8f2;
+    text-align: center;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* add a color when hovering on sign up button */
+body input[type=submit]:hover {
+    background-color: #c5cfb6;
+}
+
+#signin a:visited {
+    color: #b3c39c;
+}
+
+/* div.container {
+    border-radius: 5px;
+    background-color: #f8f8f7;
+    padding: 30px;
+} */
+
+/* design of the footer specific to P5-P6 and P7-P12 */
+
+.footer {
+    position: initial;
+    bottom: 0;
+    width: 100%;
+  }

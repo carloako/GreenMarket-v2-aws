@@ -1,0 +1,129 @@
+/* This page is to style the shopping cart page body. */
+.box-sc {
+    height: auto;
+    margin: 1%;
+    overflow: auto;
+    width: 250px;
+}
+.overviewprice-box {
+    margin: auto;
+    width: 90%;
+    /* display: none; */
+}
+.overviewprice {
+    padding: 5%;
+    width: 100%;
+    border: solid;
+    border-color: #a0b284;
+    border-radius: 5px;
+    background-color: white;
+}
+.btn {
+    border: none;
+    border-radius: 3px;
+    background-color: #b3c39c;
+    padding: 5px;
+    margin: 2px;
+}
+.dlt {
+    background-color: rgb(184, 118, 118);
+}
+.btn, .btn:link, .btn:hover, .btn:visited {
+    color: white;
+}
+.box-container-sc {
+    width: 90%;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#scform {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+#product {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.shopping-cart-title {
+    font-size: 20px;
+}
+#payment {
+    border: none;
+    border-radius: 3px;
+    background-color: #b3c39c;
+    padding: 5px;
+    margin: 2px;
+    color: white;
+}
+
+#payment:hover {
+    background-color: #c5cfb6;
+}
+input[type=number] {
+    border:none;
+    border-radius: 3px;
+    -moz-appearance: textfield;
+    text-align: center;
+    background-color: #f6f8f2;
+    width: 50px;
+}
+input[type=number]:focus {
+    outline:none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.plus-minus-button {
+    border: none;
+    border-radius: 3px;
+    background-color: #b3c39c;
+    color: white;
+    padding: 5px;
+    width: 23px;
+}
+#btn-save-changes {
+    border: none;
+    border-radius: 3px;
+    background-color: #b3c39c;
+    color: white;
+    padding: 5px;
+    margin: auto;
+    display: none;
+}
+.sc-empty{
+    font-size:xx-large;
+    color: #e61212;
+    display: none;
+    border: solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+@media only screen and (min-width:766px){
+.box-container-sc {
+    width: 70%;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.overviewprice-box {
+    margin: 1%;
+    width: 30%;
+}
+#product {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}}

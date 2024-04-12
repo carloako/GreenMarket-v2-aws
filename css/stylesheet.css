@@ -1,0 +1,149 @@
+/* header {
+    background-color: #b3c39c;
+    border-color:#b3c39c;
+    height: auto;
+} */
+
+/* header a:link {
+    color: #f6f8f2;
+}
+header a:visited {
+    color: #f6f8f2;
+} */
+
+/* ol, ul {
+	list-style: none;
+} */
+/* blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+} */
+/* table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+/* start of the general stylesheet */
+
+/* a {
+  text-decoration: none;
+} */
+
+/* header styling */
+
+/* .navbar-toggler {
+    color: #f6f8f2;
+} */
+/* .header-1 {
+    width: 100%;
+    height: 26px;
+}
+.header-1 a:link {
+    color: #f6f8f2;
+}
+.header-1 a:hover {
+    color: #c5cfb6;
+}
+.header-1 a:visited {
+    color: #f6f8f2;
+} */
+/* .logo {
+    height: 171.3;
+    width: 50px;
+} */
+/* .header-2 {
+    width: 100%;
+    height: auto;
+    font-size: 100%;
+    font-family: MontserratLight;
+    color: #f6f8f2;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+/* .search-bar-container {
+    float: right;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 1%;
+} */
+
+/* navigation bar styling */
+/* .navbar {
+    overflow: hidden;
+    background-color: #a0b284;
+    color: #f6f8f2;
+    width:100%;
+} */
+/* .nav-item {
+    padding-left: 14px;
+    padding-right: 14px;
+} */
+/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f6f8f2;
+}    
+.navbar-light .navbar-nav .nav-link {
+    color: #f6f8f2;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f6f8f2;
+} */
+/* nav links */
+/* .navbar a {
+    float: left;
+    font-size: 20px;
+    font-weight: 900;
+    color: #f6f8f2;
+    text-align: center;
+    padding: 10px 30px;
+} */
+
+/* main body things */
+
+
+
+
+
+
+/* media queries */
+/* @media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 650px) {
+} */
+
+/* @media(max-width: 991px) {
+    .header-2 {
+        height: auto;
+    }
+} */
+
+
+
+/* @media only screen and (min-width: 600px) {
+  .footer {
+    font-size: 2rem;
+  }
+} */
+
+/* .nav-link-text {
+    font-weight: bolder;
+} */
+
+/* .nav-link, .navbar-nav, .navbar-expand-lg{
+    padding: 10px 30px;
+} */
+
+/* .border {
+  border-color: rgb(142, 155, 124, 0.8) !important;
+} */
